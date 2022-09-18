@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 120px;
+    position: absolute;
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+}
+.header-name{
+    position: absolute;
+    width: 1444px;
+    height: 74px;
+    left: 59px;
+    top: 13px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.information-main-page{
+    position: absolute;
+    width: 1077px;
+    height: 587px;
+    left: 59px;
+    top: 241px;
+    background-color: rgb(255, 255, 255);
+}
+.text-information-main-page{
+    position: absolute;
+    width: 1077px;
+    height: 320px;
+    left: 59px;
+    top: 241px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
