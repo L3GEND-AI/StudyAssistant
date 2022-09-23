@@ -28,8 +28,6 @@
     height: 587px;
     left: 59px;
     top: 241px;
-
-    background-color: aqua;
 }
 .text-information-main-page{
     position: absolute;
@@ -54,8 +52,6 @@
     height: 342px;
     left: 980px;
     top: 320px;
-
-    background-color: yellowgreen;
 }
 /* Сами кнопки дисциплин */
 .btn-disciplines{
@@ -84,4 +80,11 @@
     box-shadow: inset 5px 3px 2px 1px #BDF6A1;
 }
 
+.contactUs{
+    position: absolute;
+    width: 504px;
+    height: 128px;
+    left: 59px;
+    top: 820px;
+}
 
