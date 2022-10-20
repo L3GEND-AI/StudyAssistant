@@ -3,7 +3,7 @@
     color: rgb(255, 255, 255);
     height: 120px;
     position: absolute;
-    width:100%;
+    width: 100%;
     left: 0px;
     top: 0px;
 }
@@ -27,14 +27,14 @@
     width: 820px;
     height: 587px;
     left: 59px;
-    top: 241px;
+    top: 150px;
 }
 .text-information-main-page{
     position: absolute;
     width: 1077px;
     height: 320px;
     left: 59px;
-    top: 241px;
+    top: 150px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -80,11 +80,18 @@
     box-shadow: inset 5px 3px 2px 1px #BDF6A1;
 }
 
+.btn-disciplines2:hover {
+    background: rgba(0,0,4,0);
+    color: #000000;
+    background-color: rgb(189,246,161);
+    box-shadow: inset 5px 3px 2px 1px #BDF6A1;
+}
+
 .contactUs{
     position: absolute;
     width: 504px;
     height: 128px;
     left: 59px;
-    top: 820px;
+    top: 650px;
 }
 
