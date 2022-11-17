@@ -32,6 +32,15 @@ button{
     margin: 15px;
 }
 
+button:hover{
+    background: rgba(0,0,4,0);
+    color: #000000;
+    background-color: rgb(189,246,161);
+    box-shadow: inset 5px 3px 2px 1px #BDF6A1;
+    transform: scale(0.97);
+    transition-duration: 1s ;
+}
+
 .btn-disciplines-block{
     margin-left: auto;
 }
