@@ -1,9 +1,13 @@
-.div-Head{
+.div-Head, .div-Head-with-button-to-main{
     background-color: black;
     color: rgb(255, 255, 255);
     height: 75px;
     border-radius: 15px;
     box-shadow:7px 7px 10px 2px #B3B2B2;
+}
+
+.div-Head-with-button-to-main{
+    display: flex;
 }
 
 h1, h2{
@@ -23,7 +27,7 @@ h2{
     display: flex;
 }
 
-button{
+button, button-to-main-page{
     width: 400px;
     height: 102px;
     background: #BDF6A1;
@@ -39,6 +43,11 @@ button:hover{
     box-shadow: inset 5px 3px 2px 1px #BDF6A1;
     transform: scale(0.97);
     transition-duration: 1s ;
+}
+
+.button-to-main-page{
+    width: 180px;
+    height: 45px;
 }
 
 .btn-disciplines-block{
