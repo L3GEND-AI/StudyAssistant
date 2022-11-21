@@ -10,6 +10,12 @@
     display: flex;
 }
 
+.div-Separated-columns{
+    margin: 200px;
+}
+
+
+
 h1, h2{
     margin: 10px;
     padding: 10px;
@@ -21,6 +27,12 @@ h2{
     font-size: 25px;
 }
 
+.#h1x{
+    margin: 10px;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+}
 img{
     margin: 10px;
     padding: 10px;
@@ -74,7 +86,47 @@ button:hover{
     height: 45px;
 }
 
+@media only screen and (max-width: 768px){
+    .button-to-main-page{
+        
+        width: 130px;
+        height: 75px;
+        margin: 35px;
+        transition-duration: 1s ;
+
+    }
+}
+
 .btn-disciplines-block{
     margin-left: auto;
 }
+
+/* test */
+@media only screen and (max-width: 1100px){
+    .div-Head-with-button-to-main{
+
+        height: 110px;
+        transition-duration: 1s ;
+
+    }
+}
+@media only screen and (max-width: 768px){
+    .div-Head-with-button-to-main{
+
+        height: 155px;
+        transition-duration: 1s ;
+
+    }
+}
+@media only screen and (max-width: 578px){
+    h1{
+
+        font-size: 20px;
+        margin: 15px;
+        transition-duration: 1s ;
+
+    }
+}
+
+
 
