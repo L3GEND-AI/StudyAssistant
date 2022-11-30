@@ -40,6 +40,14 @@ img{
     height: 400px;
 }
 
+
+.img-formula{
+    all: unset;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
+
 .p-Tasks{
     margin: 10px;
     padding: 10px;
@@ -93,7 +101,7 @@ button:hover{
         height: 75px;
         margin: 35px;
         transition-duration: 1s ;
-
+        
     }
 }
 
@@ -104,15 +112,15 @@ button:hover{
 /* test */
 @media only screen and (max-width: 1100px){
     .div-Head-with-button-to-main{
-
+        
         height: 110px;
         transition-duration: 1s ;
-
+        
     }
 }
 @media only screen and (max-width: 768px){
     .div-Head-with-button-to-main{
-
+        
         height: 155px;
         transition-duration: 1s ;
 
@@ -120,13 +128,66 @@ button:hover{
 }
 @media only screen and (max-width: 578px){
     h1{
-
+        
         font-size: 20px;
         margin: 15px;
         transition-duration: 1s ;
-
+        
     }
 }
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px;
+}
+/* display: var(--display-container-edit); */
+
+@media only screen and (max-width: 578px){
+    .container{
+        display: var(--display-container-edit);
+        transition-duration: 1s ;
+        
+    }
+}
+
+element{
+    --display-container-edit: display: none;
+}
+
+.con1{
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    
+}
+
+.con2{
+    margin-left: 5px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+    
+    
+}
+
+.btn-to-theme{
+    all: unset;
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+
+}
+
+
 
 
 
