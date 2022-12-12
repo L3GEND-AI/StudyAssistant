@@ -27,7 +27,7 @@ h2{
     font-size: 25px;
 }
 
-.#h1x{
+.h1x{
     margin: 10px;
     padding: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,11 +67,7 @@ img{
 }
 
 
-#div-information-main-page{
-    flex: 50%;
-    border: dashed;
-    max-width: 65%;
-}
+
 
 .information-main-page{
     color: black;
