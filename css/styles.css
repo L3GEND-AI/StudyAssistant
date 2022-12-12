@@ -66,11 +66,30 @@ img{
     font-style: italic;
 }
 
+
+#div-information-main-page{
+    flex: 50%;
+    border: dashed;
+    max-width: 65%;
+}
+
 .information-main-page{
     color: black;
     margin-top: 80px;
     display: flex;
+    /* need edit here */
 }
+
+/* @media only screen and (max-width: 700px){
+    .information-main-page{
+        display: none;
+    }
+} */
+/* @media only screen and (max-width: 500px){
+    #div-information-main-page{
+        width: 100%;
+    }
+} */
 
 button, button-to-main-page{
     width: 400px;
